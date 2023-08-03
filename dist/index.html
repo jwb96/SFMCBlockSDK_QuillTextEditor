@@ -23,6 +23,20 @@
 				</div>
 			</header>
 		</div>
+		<div class="slds-form-element">
+			<label class="slds-form-element__label" for="block_color">Block Background Color</label>
+			<div class="slds-form-element__control">
+				<select id="block_color" name="block_color" class="slds-input">
+					<option value="#ffffff" selected>White</option>
+					<option value="#743DBC">Grape</option>
+					<option value="#FFA700">Mango</option>
+					<option value="#1AD1DB">Arctic Blue</option>
+					<option value="#00A2AC">Dark Arctic Blue</option>
+					<option value="#8D61C8">80% Grape</option>
+					<option value="#F1EFE9">Omni Beige</option>
+				</select>
+			</div>
+		</div>
 		<div id="editor" style="height: 200px"></div>
 	</article>
 
@@ -33,8 +47,8 @@
 		  ['bold', 'italic', 'underline']
 		  , ['link']
 		  , [{ 'list': 'ordered'}, { 'list': 'bullet' }]
-
 		  , [{ 'header': ['1', '2', 'false'] }]
+		  , [{ 'color': ['white', 'black'] }]
 		]
 		var quill = new Quill('#editor', {
 		  modules: {
