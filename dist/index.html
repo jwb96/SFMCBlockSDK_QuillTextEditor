@@ -30,14 +30,7 @@
 
 	<script>
 		var toolbarOptions = [
-			['bold', 'italic', 'underline'], 
-			['link'],
-			[{ 'list': 'ordered'}, { 'list': 'bullet' }],
-			['script': 'super'],
-			[{ 'header': [1, 2, false] }],
-			[{ 'color': ['white', 'black'] }],
-			[{ 'background': ['White', 'Mango', 'Grape', 'Arctic Blue', 'Dark Arctic Blue'] }],
-			[{ 'font': ['Arial'] }],
+		  ['bold', 'italic']
 		]
 		var quill = new Quill('#editor', {
 		  modules: {
@@ -46,6 +39,8 @@
 		  theme: 'snow'
 		});
 	  </script>
+	
+	
 
 	<script type="text/javascript">
 		$(document).ready(function($) {
