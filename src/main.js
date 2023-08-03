@@ -1,7 +1,7 @@
 require('../node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.css');
 
 var SDK = require('blocksdk');
-var sdk = new SDK();
+var sdk = new SDK({blockEditorWidth: 600});
 
 var button_text, button_url, button_color, block_color, alignment, button_hex, text_color, vml_border, border_style, cta_length, vml_width, padding_top, padding_bottom;
 
