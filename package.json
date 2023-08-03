@@ -1,5 +1,5 @@
 {
-  "name": "SFMCBlockSDK_bulletproofbutton",
+  "name": "SFMCBlockSDK_QuillTextEditor",
   "version": "0.0.1",
   "description": "Salesforce Marketing Cloud Content Builder Custom Block",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jwb96/SFMCBlockSDK_bulletproofbutton.git"
+    "url": "https://github.com/jwb96/SFMCBlockSDK_QuillTextEditor.git"
   },
   "author": "Jim Barton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jwb96/SFMCBlockSDK_bulletproofbutton/issues"
+    "url": "https://github.com/jwb96/SFMCBlockSDK_QuillTextEditor/issues"
   },
-  "homepage": "https://github.com/jwb96/SFMCBlockSDK_bulletproofbutton#readme",
+  "homepage": "https://github.com/jwb96/SFMCBlockSDK_QuillTextEditor#readme",
   "dependencies": {
     "@salesforce-ux/design-system": "^2.5.2",
     "blocksdk": "^1.0.0",
