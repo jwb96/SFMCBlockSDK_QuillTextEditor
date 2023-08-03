@@ -21,43 +21,24 @@ function debounce (func, wait, immediate) {
 }
 
 function createWallet() {
-	button_text = document.getElementById('button_text').value;
-	button_url = document.getElementById('button_url').value;
-	button_color = document.getElementById('button_color').value;
 	block_color = document.getElementById('block_color').value;
-	alignment = document.getElementById('alignment').value;
 	padding_top = document.getElementById('padding_top').value;
 	padding_bottom = document.getElementById('padding_bottom').value;
 
-	if (button_color == 'grape') {
-		button_hex = '#8250C3'
+	if (block_color == 'grape') {
 		text_color = '#FFFFFF'
-		border_style = '0px'
-		vml_border = '#8250C3'
 	} 
-		else if (button_color == 'mango') {
-			button_hex = '#FFA700'
+		else if (block_color == 'mango') {
 			text_color = '#000000'
-			border_style = '0px'
-			vml_border = '#FFA700'
 		}
-  			else if (button_color == 'arctic') {
-				button_hex = '#1AD1DB'
+  			else if (block_color == 'arctic') {
 				text_color = '#000000'
-				border_style = '0px'
-				vml_border = '#1AD1DB'
 			}
-				else if (button_color == 'white') {
-					button_hex = '#FFFFFF'
+				else if (block_color == 'white') {
 					text_color = '#743DBC'
-					border_style = '1px solid #743DBC'
-					vml_border = '#743DBC'
 				} 
 					else {
-						button_hex = '#8250C3'
 						text_color = '#FFFFFF'
-						border_style = '0px'
-						vml_border = '#8250C3'
 					}
 
 	cta_length = button_text.length
